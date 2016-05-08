@@ -13,13 +13,13 @@ Generic Ruby 2.3 / Rack / Sinatra / Rspec template project
 * Open the [CLI (Command line interface)](https://www.google.com.au/?ion=1&espv=2&q=CLI) or GitBash of your operating system
 
 ### Verify git works
-* Run `git --version` and you should see similar to:
+* Run `git --version` and you should see something similar to:
 ```
 git version 2.7.4
 ```
 
 ### Verify ruby works
-* Run `ruby --version` and you should see similar to:
+* Run `ruby --version` and you should see something similar to:
 ```
 ruby 2.3.0p0 (2015-12-25) [x86_64-linux-gnu]
 ```
