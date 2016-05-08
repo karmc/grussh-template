@@ -3,31 +3,46 @@ Generic Ruby 2.3 / Rack / Sinatra / Rspec template project
 
 # Beginners How-to
 
-## Make it yours
 
-### 1. Before you start
+## Before you start
 * __Install git__ <https://git-scm.com/book/en/Getting-Started-Installing-Git>
 * __Install Ruby__ <https://www.ruby-lang.org/en/documentation/installation/>
 * Choose a name for the folder `<your_project>`
-* Open the [CLI (Command line interface)](https://www.google.com.au/?ion=1&espv=2&q=CLI) of your operating system
+ 
+## Check you can start
+* Open the [CLI (Command line interface)](https://www.google.com.au/?ion=1&espv=2&q=CLI) or GitBash of your operating system
 
-### 2. Clone this repo using git
+### Verify git works
+* Run `git --version` and you should see similar to:
+```
+git version 2.7.4
+```
+
+### Verify ruby works
+* Run `ruby --version` and you should see similar to:
+```
+ruby 2.3.0p0 (2015-12-25) [x86_64-linux-gnu]
+```
+
+## Make it yours
+
+### 1. Clone this repo using git
 * Run `git clone https://github.com/markchiavaroli-ext/grussh-template.git <your_project>`
 
-### 3. Unlink from this GitHub repo
+### 2. Unlink from this GitHub repo
 * Delete the `.git` directory from the `<your_project>` folder
  
-### 4. Create your new GitHub repo
+### 3. Create your new GitHub repo
 * Follow this guide: <https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/>
  
 ## Bundle it
 
-### 1. Navigate to `<your_project>` folder
+* Navigate to `<your_project>` folder
 
-### 2. Install the bundler ruby gem
-* Run `gem install bundler` (<http://bundler.io/>)
+### 1. Install the bundler ruby gem (<http://bundler.io/>)
+* Run `gem install bundler` 
 
-### 3. Download required gems
+### 2. Download required gems
 * Run `bundle`
  
 ## Test it
@@ -37,8 +52,8 @@ Finished in 0.01516 seconds (files took 0.18661 seconds to load)
 1 example, 0 failures
 ```
 
-## Start it
-* Run `ruby app/main.rb` or `ruby app\main.rb` depending on your operating system
+## Start it (<http://www.sinatrarb.com/>)
+* Run `ruby app/main.rb` or `ruby app\main.rb` depending on your CLI
  
 ## Use it
 * Open a browser (tab) and navigate to <http://localhost:4567> and you should see:
@@ -46,4 +61,4 @@ Finished in 0.01516 seconds (files took 0.18661 seconds to load)
 Hello Grusshed World
 
 ## Stop it
-* Pressing `Ctrl + c` should work in most command shells
+* Pressing `Ctrl + c` should work in most CLIs
