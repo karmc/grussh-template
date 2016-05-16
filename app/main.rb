@@ -1,6 +1,6 @@
 require 'sinatra'
 
 get '/' do
-  'Hello Peters World'
+  'Hello Grusshable World'
 end
 

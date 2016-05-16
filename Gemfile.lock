@@ -27,15 +27,13 @@ GEM
     tilt (2.0.2)
 
 PLATFORMS
+  java
   ruby
 
 DEPENDENCIES
   rack-test
   rspec
   sinatra
-
-RUBY VERSION
-   ruby 2.3.0p0
 
 BUNDLED WITH
    1.12.3
